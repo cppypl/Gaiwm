@@ -1,0 +1,28 @@
+*{ margin: 0; padding: 0; box-sizing: border-box}
+li{list-style: none;}
+a{text-decoration: none; color: #333}
+header{height: 50px; line-height: 50px; background: #1a3550}
+header a{float: right; height: 100%; line-height: 50px; color: #fff; text-align: center; width: 100px;}
+header a.active{ background: #e0c246;}
+
+
+nav{ height: 140px; line-height: 140px; padding: 0 10%;}
+nav .logo{ width: 370px; float: left; padding-top: 20px  }
+nav ul{ float: right;}
+nav ul li{ float: left; padding:  0 20px; height: 100%; font-size: 18px}
+.container{ width: 80%; margin: 0 auto}
+
+.container .ulBox{ width: 100%; overflow: hidden; }
+.banner{ background:url('../images/timg.jpg') no-repeat ; background-size: 100% 100%; padding-top:700px; min-height: 800px}
+.container .ulBox li{ width: 40%; background: #fff; float: left; margin :5%;}
+.container .ulBox li img{ border:10px #fff solid}
+.container .ulBox li p{ line-height: 60px; height: 60px; text-align: center; font-size: 24px; color: #fff}
+.blue{ background-image: linear-gradient(to right, #2f79d8, #50a3d9); }
+.yellow{ background-image: linear-gradient(to right, #fec635, #fede35); }
+.green{background-image: linear-gradient(to right, #33b549, #92c731); }
+.purple{background-image: linear-gradient(to right, #4f57ac, #7558ac); }
+
+.indexUl{ width:100%; margin: 0 auto; padding: 40px; background: #f4f4f4; display: flex; align-content: center; }
+.indexUl li{ flex: 1; text-align: center; font-size: 18px}
+footer{height: 200px;}
+
