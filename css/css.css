@@ -26,3 +26,23 @@ nav ul li{ float: left; padding:  0 20px; height: 100%; font-size: 18px}
 .indexUl li{ flex: 1; text-align: center; font-size: 18px}
 footer{height: 200px;}
 
+.serchBox{ margin: 0 auto; width: 900px; margin-top: -400px}
+.serchBox input{float: left; width: 600px; margin-right: 20px; height: 60px; line-height: 60px; font-size: 18px; border-radius: 5px; border: none; padding-left: 20px;}
+.serchBox button{float: left; width: 200px; height: 60px; line-height: 60px;background: #e0c246; color: #fff; border: none; border-radius: 5px;font-size: 18px;}
+
+.about{ width: 100%; background: #fff;  padding: 40px;}
+.about .tt{ font-size: 36px; text-align: center; color: #333}
+.about p { line-height: 40px; font-size: 22px; margin-bottom: 40px; color: #666}
+
+.tixi_con{background: #fff}
+.tixi_con .tt{ font-size: 36px; margin-top: 80px;}
+
+.tixi_con p { line-height: 40px; font-size: 22px; margin-bottom: 40px; color: #666}
+.colorBox{ width: 100%; padding: 20px; background: #eee; display: flex; align-content: space-between; height: 150px; align-items: center; margin-top: -60px; margin-bottom: 60px;}
+.colorBox span{  display: block; flex: 1 ; height: 30px; margin:0 30px}
+.serchBox{ background: #fff; padding: 40px;}
+.serchBox .head{ border-bottom: 1px #ddd solid; padding-bottom: 20px; font-size: 18px}
+.serchBox .head span{ margin: 40px}
+.serchBox table{ border-collapse: collapse; width: 100%;}
+.serchBox table td{padding: 10px;}
+.serchBox table tr td:first-child{ background: #e0c246; color: #fff; text-align: center}
