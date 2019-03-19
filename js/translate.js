@@ -3581,7 +3581,7 @@ Microsoft.Translator = new function() {
         if (!t) t = s;
         var x = e,
           K = e,
-          O = s.style.color,
+          // O = s.style.color,
           // M = s.style.backgroundColor,
           o = s.ownerDocument,
           N = e,
@@ -3592,13 +3592,13 @@ Microsoft.Translator = new function() {
               try {
                 b = "#" + C.parse(s.style.color).toString();
               } catch (c) {}
-              if (b != r) O = s.style.color;
+              // if (b != r) O = s.style.color;
               var a = s.style.backgroundColor;
               try {
                 a = "#" + C.parse(s.style.backgroundColor).toString();
               } catch (c) {}
               if (a != m) M = s.style.backgroundColor;
-              s.style.color = r;
+              // s.style.color = r;
               // s.style.backgroundColor = m;
             }
             if (z.showTooltips && d) {
@@ -3614,7 +3614,7 @@ Microsoft.Translator = new function() {
               return;
             }
             if (z.showHighlight) {
-              s.style.color = O;
+              // s.style.color = O;
               // s.style.backgroundColor = M;
             }
             if (z.showTooltips && a) {
