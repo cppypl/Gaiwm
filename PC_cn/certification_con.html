@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>GAIWM官网</title>
+    <link rel="stylesheet" href="css/css.css" />
+    <link rel="stylesheet" href="css/css.css" />
+    <script src="js/jquery-1.12.3.min.js"></script>
+    <script src="js/language.js"></script>
+  
+  </head>
+  <body>
+      <header>
+          <span>English</span>
+          <span class="active">中文</span>
+        </header>
+        <nav>
+          <a href="index.html" class="logo"><img src="images\logo.png" alt="" height="80"></a>
+          <span class="menu_list"><i class="iconfont">&#xe63f;</i></span>
+          <ul>
+            <li><a href="about.html">关于GAIWM</a><i class="sanjiaoxing"></i></li>
+            <li class="active"><a href="certification.html">认证体系</a><i class="sanjiaoxing"></i></li>
+            <li><a href="news_list.html">资讯</a><i class="sanjiaoxing"></i></li>
+            <li><a href="serch.html">查询入口</a><i class="sanjiaoxing"></i></li>
+            <li><a href="center.html">个人中心</a><i class="sanjiaoxing"></i></li>
+          </ul>
+        </nav>
+
+    <div class="banner banner_one" style=" background: url('images/b6.jpg') no-repeat; background-size: 100% 100% ">
+    
+      <div class="container" style="position: relative; top: 80px; background: rgba(0, 0, 0, .3)">
+          <div class="tabCard" style="text-align:left">
+              <img src="images/zhuli.jpg" alt="" width="540" style="float:left;">
+              <div style=" margin-left: 600px">
+                  <p class="tt">助理财富管理师(AWM)</p>
+                  <p>　　为有志从事财富管理的人士提供入门级的基础方程，内容涵盖财务规划的基本要素、实践的价值、风险与收益的衡量方法、资产配置过程以及各种金融工具的介绍，学员可透过课程对财富管理有更深刻的了解，以及具备初步分析方案的能力。每个课程模块大概需要投入8-12小时的学习时间。<br>
+
+                    　　通过认证财富管理师课程，可以使学员更加了解财富的来源，掌握如何计量财富，理解客户人生所处阶段对风险和投资的不同需求，并未客户定制合理的投资计划。其中，每个课程模块大概需要投入10-14小时进行学习，以熟悉每一个知识点，成绩合格可以获得学会颁发的认证证书。</p>
+              </div>
+             
+            </div>
+
+            <div class="tabCard" style="text-align:left">
+                <img src="images/index_m_03.png" alt="" width="540" style="float:left;">
+                <div style=" margin-left: 600px">
+                    <p class="tt">认证财富管理师 (CWM)</p>
+                    <p>　　通过学习认证财富管理课程使得财富管理专业人士能够了解财富的来源、掌握如何计量财富，理解客户人生所处阶段对风险和投资的影响和不同需求。学会如何通过调查问卷的形式判断个人投资者的类型与偏好。了解各类投资产品对投资人和顾问的潜在收益。还应该掌握如何根据客户的风险偏好设置投资组合，为客户制定合理的投资计划。掌握财富管理必备的知识与技能，为不同客户提供量身定制的解决方案。<br>
+
+                      　　每个课程模块需要投入大约10~14个小时进行学习，我们会提供习题来帮助学员熟悉每一个知识点，学习完成后进行统一的标准化考试，成绩合格可以获得学会颁发的认证证书。</p>
+                </div>
+               
+              </div>
+
+              <div class="tabCard" style="text-align:left; display: block">
+                  <img src="images/jiazu.jpg" alt="" width="540" style="float:left;">
+                  <div style=" margin-left: 600px">
+                      <p class="tt">家族财富传承规划师</p>
+                      <p>　　透过家族办公室运营培训课程，学员能扎实掌握投资银行、对冲基金、风险投资、财务分析、金融建模等方面的知识，对家族办公室的服务范围、运营模式、财富传承规划以及全面的资本管理技巧等均有深刻的理解，能为客户提供全球投资以及组合管理，家族办公室搭建等高端理财服务。在此阶段，每个课程模块大概需要投入15-20个小时进行学习，以做到充分理解，灵活运用。成绩合格可以获得学会颁发的认证证书。成绩合格可以获得学会颁发的认证证书。</p>
+                  </div>
+                 
+                </div>
+        </div>
+      
+      
+      </div>
+    
+
+      <script>
+      
+      console.log(window.location.hash);
+
+      if(window.location.hash=='#AWM'){
+        $('.tabCard').eq(0).show().siblings('.tabCard').hide()
+      }else if(window.location.hash=='#CWM'){
+        $('.tabCard').eq(1).show().siblings('.tabCard').hide()
+
+      }
+      
+      </script>
+  </body>
+</html>

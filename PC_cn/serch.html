@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>GAIWM官网</title>
+    <link rel="stylesheet" href="css/css.css" />
+    <link rel="stylesheet" href="css/css.css" />
+    <script src="js/jquery-1.12.3.min.js"></script>
+    <script src="js/language.js"></script>
+  
+  </head>
+  <body>
+      <header>
+          <span >English</span>
+          <span class="active">中文</span>
+        </header>
+        <nav>
+          <a href="index.html" class="logo"><img src="images\logo.png" alt="" height="80"></a>
+          <span class="menu_list"><i class="iconfont">&#xe63f;</i></span>
+          <ul>
+            <li><a href="about.html">关于GAIWM</a><i class="sanjiaoxing"></i></li>
+            <li><a href="certification.html">认证体系</a><i class="sanjiaoxing"></i></li>
+            <li><a href="news_list.html">资讯</a><i class="sanjiaoxing"></i></li>
+            <li class="active"><a href="serch.html">查询入口</a><i class="sanjiaoxing"></i></li>
+            <li><a href="center.html">个人中心</a><i class="sanjiaoxing"></i></li>
+          </ul>
+        </nav>
+
+    <div class="banner banner_one " style=" background:url('images/bg1.jpg') no-repeat; background-size:cover; padding-top: 700px; ">
+        <div class="serchBox">
+            <input type="text" placeholder="您想查询的关键字"><button id="serch">查询</button>
+        </div>
+    </div>
+    <div class="container" style="position: relative; top: -80px">
+      
+    </div>
+    <script>
+      document.getElementById('serch').onclick=function(){
+        window.location.href="serch_con.html"
+        
+      }
+    </script>
+  </body>
+</html>
