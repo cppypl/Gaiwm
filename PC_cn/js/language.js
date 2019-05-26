@@ -43,7 +43,7 @@ $(function(){
             alert('已向您发送验证码，请注意查收。')
             this.timer=setInterval(()=>{
                 if(num>0){
-                    $(this).text(num+'S')
+                    $(this).text(num+'s')
                     num--
                     
                 }else{
