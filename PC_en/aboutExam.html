@@ -31,7 +31,8 @@
     <div class="container" >
         <div class="about">
           <div style=" background: #f3f3f3; padding: 40px;" class="aboutExam">
-            
+            <dl>
+              <dd id="tiaokuan" style="display:none">
               <b>【Registration】</b><br>
               Tests and Examinations Agreement Terms<br>
               1.	Candidates shall peruse Examination Rules & Regulations and Identification and Punishment of Disciplinary Violations carefully and follow the rules;<br>
@@ -40,6 +41,8 @@
               4.	The examination will be interrupted or cancelled in case of force majeure such as earthquake, typhoon, fire, floods, war, power outages and network outages. The test organizer and the candidate shall bear the losses due to force majeure. The test organizer is not responsible for force majeure, including but not limited to non-refundable test fees, etc.;<br>
               5.	Candidates shall fill in the form by themselves and be responsible for any consequences caused by others filling in. Your name, ID number, password, phone number and mailing address are important information, please pay more attention. If there is any loss or damage, the consequences will be borne by the candidates.<br>
               <br>
+            </dd>
+            <dd id="xuzhi" style="display:none">
               <b>【 	Notes for Candidates】<br></b>
               1.	Before taking the test, candidates shall peruse Identification and Punishment of Disciplinary Violations and Examination Rules & Regulations carefully and follow the rules;<br>
               2.	Candidates shall arrive at the designated test venue 30 minutes before the test with your valid ID, sit in the right seat and keep your admission ticket and ID on the left side of the test desk for examiners to check at any times. The valid identification documents are resident ID, temporary resident ID, military ID/ armed police ID/ soldiers ID, passport, Mainland travel permit for Taiwan residents and Mainland travel permit for Hong Kong and Macau residents;<br>
@@ -49,7 +52,8 @@
               6.	Candidates should strictly observe the examination discipline and keep quiet; Any disciplinary violations will be punished according to Identification and Punishment of Disciplinary Violations;<br>
               7.	The Global Finance and Investment Institute has the right to notify candidates’ work units for disciplinary or cheating violations and to record the relevant information into the examination management system.<br>
               <br>
-              
+            </dd>
+            <dd id="banfa" style="display:none">
               <b>【 	Identification and Punishment of Disciplinary Violations】<br></b>
               Ⅰ. Candidates do not obey the examination rules and examination staff's arrangements shall be deemed to have committed a serious violation of the examination under any of the following circumstances：<br>
               1.	Carrying unprescribed articles into the examination room and not putting them in a designated place;<br>
@@ -93,7 +97,7 @@
               
               Ⅷ. Any candidate who contravenes the provisions of the above, the Global Finance and Investment Institute has the right to notify candidates’ work units for disciplinary or cheating violations.<br>
               <br>
-              
+            </dd>
               <b>【 	Frequently Asked Questions about the Test】<br></b>
               Q1. How to log in the GAIWM examination registration and certification system? What is the ID number? What is the password?<br>
               A: Please log into the GAIWM official website, enter the GAIWM examination registration and certification system; the valid identification number shall be your resident ID, temporary resident ID, military ID/ armed police ID/ soldiers ID, passport, Mainland travel permit for Taiwan residents and Mainland travel permit for Hong Kong and Macau residents; The initial password is 666666. If you forget your password, please click "forget password" and enter your ID number. The temporary password will be sent to your mobile phone. <br>
@@ -110,8 +114,18 @@
               Q5. When will my official scores be reported after testing?<br>
               A: The official scores will be available within four weeks after your test date.<br>
               <br>
+            </dl>
+
           </div>
         </div>
     </div>
+    <script>
+      let id=window.location.hash
+      document.querySelector(id).style.display="block"
+      console.log(id);
+      
+        console.log(document.querySelector(id));
+        
+      </script>
   </body>
 </html>

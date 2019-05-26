@@ -31,25 +31,41 @@
 <div class="banner banner_one " style=" background:url('images/loginBg.jpg') no-repeat; background-size:cover ">
 
 </div>
-<div class="container" style="position: relative; top: -80px">
-<div class="login-page">
-<div id="login_form" class="form">
-<div class="register-form">
-  <input type="text" placeholder="用户名" id="r_user_name"/>
-  <input type="password" placeholder="密码" id="r_password" />
-  <input type="password" placeholder="确认密码" id="r_emial"/>
-  <button id="create" class="btn">创建账户</button>
-  <p class="message">已经有了一个账户? <a href="javascript:" class="toLogin">立刻登录</a> </p>
- </div>
- <div class="login-form">
-  <input type="text" placeholder="用户名" id="user_name"/>
-  <input type="password" placeholder="密码" id="password"/>
-  <button id="login" class="btn">登　录</button>
-  <p class="message">还没有账户? <a href="javascript:" class="toRegister">立刻创建</a> > <a href="javascript:">忘记密码</a></p>
- </div>
-</div>
-</div>
+<div class="container" style="position: relative; top: -180px">
+  <div class="login-page">
+    <div id="login_form" class="form">
+      <div class="register-form">
+        <ul>
+          <li class="active">By Mobile Phone</li>
+          <li>By E-mail</li>
+        </ul>
+        <input type="text" placeholder="Username" />
 
+        <div class="tabType" style="display:block">
+          <input type="text" placeholder="Input your mobile phone" />
+          <span class="getCode">Send verification code</span>
+        </div>
+
+        <div class="tabType">
+          <input type="text" placeholder="Input your E-mail" />
+          <span class="getCode">Send verification code</span>
+        </div>
+
+        <input type="text" placeholder="Enter the verification code" />
+        <input type="password" placeholder="Enter new password" />
+        <button id="create" class="btn">submit</button>
+      </div>
+
+      <div class="login-form">
+        <input type="text" placeholder="Username" id="user_name" />
+        <input type="password" placeholder="Password" id="password" />
+        <button id="login" class="btn">Login</button>
+        <p class="message">
+          <a href="javascript:" class="toRegister">Forget password</a>
+        </p>
+      </div>
+    </div>
+  </div>
 </div>
 
 </body>
