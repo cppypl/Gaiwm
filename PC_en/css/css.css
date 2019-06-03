@@ -128,7 +128,7 @@ footer{height: 200px;}
 
 .about{ width: 100%; background: #fff;  padding: 40px;}
 .about .tt{ font-size: 36px; text-align: center; color: #333}
-.about p { line-height: 40px; font-size: 22px; margin-bottom: 40px; color: #666}
+.about p { line-height: 40px;  margin-bottom: 40px; color: #666}
 .about li{ float: left; width: 400px;}
 .tixi_con{background: #fff; padding: 40px; }
 .tixi_con .tt{ font-size: 36px; margin-top: 80px;}
@@ -153,6 +153,7 @@ footer{height: 200px;}
 .right_box{   margin-left: 250px; }
 .left_box ul { padding-top: 40px;}
 .left_box ul li a{ padding: 20px; display: block; font-size: 18px}
+.left_box ul li a p{ font-size: 14px}
 .left_box ul li a.active{ background: #e0c246; color: #fff}
 .left_box ul li a.active p{ color: #fff}
 .left_box ul li a:hover{ background: #e0c246; color: #fff}
